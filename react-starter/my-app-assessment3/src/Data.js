@@ -71,7 +71,6 @@ const data = [
     author: `Paul McFedries`, 
     img: `https://images-na.ssl-images-amazon.com/images/I/41-6F+RDbIL._SX258_BO1,204,203,200_.jpg`
 }
-
 ]
 
 export default data;
