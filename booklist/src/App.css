@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #29d9e6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.shelf {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  color: blue;
+}
+
+.list {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  color: purple;
+}
+
+.header {
+  color: rgb(9, 189, 212);
+}
+
+.searchBar {
+  position: center;
+ margin-left: 15px;
+}
+
+.search {
+
+}
+
+.clearSearch {
+
+}
+
+.clearShelf{
+  
 }
