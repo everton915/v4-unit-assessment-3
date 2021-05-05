@@ -4,6 +4,8 @@ function BookList(props) {
     return (
       <div>
           <p>{bookObj.author}</p>
+          <p>{bookObj.title}</p>
+          <img src={bookObj.img} alt={bookObj.title} />
 
       </div>
     )
